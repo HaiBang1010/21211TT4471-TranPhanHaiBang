@@ -1,0 +1,66 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+body{
+    position: relative;
+    margin: 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    color: #6c6c6c;
+    font-weight: 500;
+    line-height: 18px;
+    background-image: url(../images/bground_bd.png);
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    
+    box-sizing: border-box;
+}
+
+.gird{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.gird__full-width{
+    width: 100%;
+}
+
+.gird__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding-bottom: 30px;
+    margin-bottom: 53px;
+    width: 1200px;
+    padding-top: 53px;
+}
+
+.container-2 {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+.container-3{
+    padding-right: 150px;
+    padding-left: 150px;
+}
